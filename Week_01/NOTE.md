@@ -37,7 +37,7 @@ func moveZeroes(nums []int) {
 	for i, val := range nums {
 		// 值不为0则处理
 		if val != 0 {
-            // 下标不重合则设置为0
+			// 下标不重合则设置为0
 			if i != j {
 				nums[i] = 0
 			}
