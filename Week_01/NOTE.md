@@ -41,6 +41,7 @@ func moveZeroes(nums []int) {
 			if i != j {
 				nums[i] = 0
 			}
+			// 交换值
 			nums[j] = val
 			// 下标前移
 			j++
