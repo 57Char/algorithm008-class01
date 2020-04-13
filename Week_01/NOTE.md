@@ -13,7 +13,7 @@ func moveZeroes(nums []int) {
 	// 双指针: i 和 j
 	j := 0
 	for i, val := range nums {
-		// 值不为空则处理
+		// 值不为0则处理
 		if val != 0 {
 			// 值交换
 			nums[i], nums[j] = 0, val
@@ -35,8 +35,9 @@ func moveZeroes(nums []int) {
 	// 双指针: i 和 j
 	j := 0
 	for i, val := range nums {
-		// 值不为空则处理
+		// 值不为0则处理
 		if val != 0 {
+            // 下标不重合则设置为0
 			if i != j {
 				nums[i] = 0
 			}
