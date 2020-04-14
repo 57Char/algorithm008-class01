@@ -77,7 +77,7 @@ func plusOne(digits []int) []int {
 	return digits
 }
 
-func plusOneV2(digits []int) []int {
+func plusOne(digits []int) []int {
 	n := len(digits)
 	// 题目中说数组不为空，所以未考虑n==0的情况
 	// 从最后一个下标开始处理
