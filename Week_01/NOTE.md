@@ -45,6 +45,26 @@ func moveZeroes(nums []int) {
 	for i, val := range nums {
 		// 值不为0则处理
 		if val != 0 {
+			// 值交换，避免上一种解法的问题，也可以nums[j], nums[i] = val, nums[j]
+			nums[i], nums[j] = nums[j], val
+			// 下标前移
+			j++
+		}
+	}
+}
+```
+
+```go
+func moveZeroes(nums []int) {
+	// 为空，退出
+	if len(nums) == 0 {
+		return
+	}
+	// 双指针: i 和 j
+	j := 0 // 非0下标
+	for i, val := range nums {
+		// 值不为0则处理
+		if val != 0 {
 			// 下标不重合则设置为0
 			if i != j {
 				nums[i] = 0

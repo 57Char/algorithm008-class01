@@ -30,6 +30,11 @@ func TestMoveZeroes(t *testing.T) {
 			[]int{0, 0},
 		},
 		{
+			"Only none-0",
+			[]int{1},
+			[]int{1},
+		},
+		{
 			"Have 0 and others I",
 			[]int{1, 2, 3, 0, 0},
 			[]int{1, 2, 3, 0, 0},
@@ -49,6 +54,108 @@ func TestMoveZeroes(t *testing.T) {
 	for _, test := range cases {
 		t.Run(test.Name, func(t *testing.T) {
 			moveZeroes(test.Nums)
+			assert.Equal(t, test.Expect, test.Nums)
+		})
+	}
+}
+
+func TestMoveZeroesV2(t *testing.T) {
+	cases := []struct {
+		Name   string
+		Nums   []int
+		Expect []int
+	}{
+		{
+			"Nil slice",
+			nil,
+			nil,
+		},
+		{
+			"Empty slice",
+			[]int{},
+			[]int{},
+		},
+		{
+			"Only 0",
+			[]int{0, 0},
+			[]int{0, 0},
+		},
+		{
+			"Only none-0",
+			[]int{1},
+			[]int{1},
+		},
+		{
+			"Have 0 and others I",
+			[]int{1, 2, 3, 0, 0},
+			[]int{1, 2, 3, 0, 0},
+		},
+		{
+			"Have 0 and others II",
+			[]int{1, 0, 2, 3, 0},
+			[]int{1, 2, 3, 0, 0},
+		},
+		{
+			"Have 0 and others III",
+			[]int{0, 1, 0, 3, 12},
+			[]int{1, 3, 12, 0, 0},
+		},
+	}
+
+	for _, test := range cases {
+		t.Run(test.Name, func(t *testing.T) {
+			moveZeroesV2(test.Nums)
+			assert.Equal(t, test.Expect, test.Nums)
+		})
+	}
+}
+
+func TestMoveZeroesV3(t *testing.T) {
+	cases := []struct {
+		Name   string
+		Nums   []int
+		Expect []int
+	}{
+		{
+			"Nil slice",
+			nil,
+			nil,
+		},
+		{
+			"Empty slice",
+			[]int{},
+			[]int{},
+		},
+		{
+			"Only 0",
+			[]int{0, 0},
+			[]int{0, 0},
+		},
+		{
+			"Only none-0",
+			[]int{1},
+			[]int{1},
+		},
+		{
+			"Have 0 and others I",
+			[]int{1, 2, 3, 0, 0},
+			[]int{1, 2, 3, 0, 0},
+		},
+		{
+			"Have 0 and others II",
+			[]int{1, 0, 2, 3, 0},
+			[]int{1, 2, 3, 0, 0},
+		},
+		{
+			"Have 0 and others III",
+			[]int{0, 1, 0, 3, 12},
+			[]int{1, 3, 12, 0, 0},
+		},
+	}
+
+	for _, test := range cases {
+		t.Run(test.Name, func(t *testing.T) {
+			moveZeroesV3(test.Nums)
 			assert.Equal(t, test.Expect, test.Nums)
 		})
 	}
