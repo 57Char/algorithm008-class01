@@ -70,4 +70,10 @@ func TestIsAnagram(t *testing.T) {
 			assert.Equal(t, test.Expect, isAnagramV3(test.S, test.T))
 		})
 	}
+
+	for _, test := range cases {
+		t.Run(test.Name, func(t *testing.T) {
+			assert.Equal(t, test.Expect, isAnagramV4(test.S, test.T))
+		})
+	}
 }
