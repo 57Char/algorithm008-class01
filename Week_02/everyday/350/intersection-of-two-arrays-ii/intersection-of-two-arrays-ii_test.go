@@ -86,24 +86,6 @@ func TestIntersect(t *testing.T) {
 			assert.Equal(t, test.Expect, inter)
 		})
 	}
-
-	for _, test := range cases {
-		t.Run(test.Name, func(t *testing.T) {
-			sort.Ints(test.Expect)
-			inter := intersectV2(test.Num1, test.Num2)
-			sort.Ints(inter)
-			assert.Equal(t, test.Expect, inter)
-		})
-	}
-
-	for _, test := range cases {
-		t.Run(test.Name, func(t *testing.T) {
-			sort.Ints(test.Expect)
-			inter := intersectV3(test.Num1, test.Num2)
-			sort.Ints(inter)
-			assert.Equal(t, test.Expect, inter)
-		})
-	}
 }
 
 func TestIntersectV2(t *testing.T) {
