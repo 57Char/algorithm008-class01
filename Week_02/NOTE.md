@@ -3,9 +3,12 @@
 ## 树
 
 ### 二叉树遍历
-- 前序(Pre-order):  根-左-右 
-- 中序(In-order):   左-根-右 
-- 后序(Post-order): 左-右-根
+
+Name | Rule
+---------------|-----------------
+前序(Pre-order) |Root->Left->Right
+中序(In-order)  |Left->Root->Right
+后序(Post-order)|Left->Right->Root
 
 ### Go模板
 
@@ -98,4 +101,67 @@ func postorderTraversal(root *TreeNode) []int {
 	return append(append(postorderTraversal(root.Left), postorderTraversal(root.Right)...), root.Val)
 }
 
+```
+
+## BFS/DFS
+
+- BFS: 广度优先
+- DFS：深度优先
+
+题目：429. N叉树的层序遍历
+[429. N叉树的层序遍历][https://leetcode.com/problems/n-ary-tree-level-order-traversal/]
+
+```go
+type Node struct {
+	Val      int
+	Children []*Node
+}
+
+// bfs
+func levelOrder(root *Node) [][]int {
+	res := [][]int{}
+	if root == nil {
+		return res
+	}
+	bfs := func(root *Node) {
+		queue := []*Node{root}
+		for len(queue) > 0 {
+			vals := []int{}
+			next := []*Node{}
+			for _, root := range queue {
+				vals = append(vals, root.Val)
+				for _, node := range root.Children {
+					next = append(next, node)
+				}
+			}
+			res = append(res, vals)
+			queue = next
+		}
+	}
+	bfs(root)
+	return res
+}
+
+// dfs
+func levelOrder(root *Node) [][]int {
+	res := [][]int{}
+	if root == nil {
+		return res
+	}
+	dfs(root, 0, &res)
+	return res
+}
+
+func dfs(root *Node, level int, res *[][]int) {
+	if root == nil {
+		return
+	}
+	if len(*res) == level {
+		*res = append(*res, []int{})
+	}
+	(*res)[level] = append((*res)[level], root.Val)
+	for _, node := range root.Children {
+		dfs(node, level+1, res)
+	}
+}
 ```
