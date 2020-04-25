@@ -29,5 +29,5 @@ func inorderTraversalV2(root *TreeNode) []int {
 	if root == nil {
 		return []int{}
 	}
-	return append(append(inorderTraversal(root.Left), root.Val), inorderTraversal(root.Right)...)
+	return append(append(inorderTraversalV2(root.Left), root.Val), inorderTraversalV2(root.Right)...)
 }

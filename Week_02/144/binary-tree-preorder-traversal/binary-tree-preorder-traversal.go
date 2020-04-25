@@ -21,7 +21,7 @@ func preorderTraversalV2(root *TreeNode) []int {
 	if root == nil {
 		return []int{}
 	}
-	return append(append([]int{root.Val}, preorderTraversal(root.Left)...), preorderTraversal(root.Right)...)
+	return append(append([]int{root.Val}, preorderTraversalV2(root.Left)...), preorderTraversalV2(root.Right)...)
 }
 
 func preorderTraversalV3(root *TreeNode) []int {
