@@ -1,5 +1,7 @@
 package n_ary_tree_postorder_traversal
 
+import "container/list"
+
 // https://leetcode.com/problems/n-ary-tree-postorder-traversal/
 
 /**
@@ -56,6 +58,30 @@ func postorderV3(root *Node) []int {
 		for _, child := range root.Children {
 			if child != nil {
 				stack = append(stack, child)
+			}
+		}
+	}
+	i, j := 0, len(res)-1
+	for i < j {
+		res[i], res[j] = res[j], res[i]
+		i++
+		j--
+	}
+	return res
+}
+
+func postorderV4(root *Node) []int {
+	if root == nil {
+		return []int{}
+	}
+	stack, res := list.New(), []int{}
+	stack.PushFront(root)
+	for stack.Len() > 0 {
+		root = stack.Remove(stack.Front()).(*Node)
+		res = append(res, root.Val)
+		for _, child := range root.Children {
+			if child != nil {
+				stack.PushFront(child)
 			}
 		}
 	}
