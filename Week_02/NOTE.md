@@ -103,13 +103,14 @@ func postorderTraversal(root *TreeNode) []int {
 
 ```
 
-## BFS/DFS
+## BFS&DFS
 
 - BFS: 广度优先
 - DFS：深度优先
 
-题目：429. N叉树的层序遍历
-[429. N叉树的层序遍历][https://leetcode.com/problems/n-ary-tree-level-order-traversal/]
+### 题目：429. N叉树的层序遍历
+
+[429. N叉树的层序遍历](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)
 
 ```go
 type Node struct {
