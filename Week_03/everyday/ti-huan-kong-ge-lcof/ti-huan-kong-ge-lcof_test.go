@@ -40,6 +40,7 @@ func TestReplaceSpace(t *testing.T) {
 		t.Run(test.Name, func(t *testing.T) {
 			assert.Equal(t, test.Expect, replaceSpace(test.S))
 			assert.Equal(t, test.Expect, replaceSpaceV2(test.S))
+			assert.Equal(t, test.Expect, replaceSpaceV3(test.S))
 		})
 	}
 }

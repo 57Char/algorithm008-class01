@@ -17,5 +17,17 @@ func replaceSpace(s string) string {
 }
 
 func replaceSpaceV2(s string) string {
+	var res []rune
+	for _, v := range s {
+		if v == ' ' {
+			res = append(res, '%', '2', '0')
+		} else {
+			res = append(res, v)
+		}
+	}
+	return string(res)
+}
+
+func replaceSpaceV3(s string) string {
 	return strings.ReplaceAll(s, " ", "%20")
 }
