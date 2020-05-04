@@ -39,6 +39,8 @@ func TestGenerateParenthesis(t *testing.T) {
 	for _, test := range cases {
 		t.Run(test.Name, func(t *testing.T) {
 			assert.Equal(t, test.Expect, generateParenthesis(test.N))
+			assert.Equal(t, test.Expect, generateParenthesisV2(test.N))
+
 		})
 	}
 }
