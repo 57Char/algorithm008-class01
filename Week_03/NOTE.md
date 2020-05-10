@@ -65,13 +65,13 @@ func divideConquer(problem, param1, param2, ...) {
 - https://leetcode.com/problems/n-queens/
 
 ## 本周作业
-题目|难度|是否完成|第几遍
-----|----|----|----
-[236. 二叉树的最近公共祖先](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|中等|是|1
-[105. 从前序与中序遍历序列构造二叉树](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|中等|否|0
-[77. 组合](https://leetcode.com/problems/combinations/)|中等|否|0
-[46. 全排列](https://leetcode.com/problems/permutations/)|中等|是|1
-[47. 全排列 II](https://leetcode.com/problems/permutations-ii/)|中等|否|0
+|题目|难度|是否完成|第几遍|
+|----|----|----|----|
+|[236. 二叉树的最近公共祖先](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|中等|是|1|
+|[105. 从前序与中序遍历序列构造二叉树](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|中等|是|1|
+|[77. 组合](https://leetcode.com/problems/combinations/)|中等|否|0|
+|[46. 全排列](https://leetcode.com/problems/permutations/)|中等|是|1|
+|[47. 全排列 II](https://leetcode.com/problems/permutations-ii/)|中等|否|0|
 
 - https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 - https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
