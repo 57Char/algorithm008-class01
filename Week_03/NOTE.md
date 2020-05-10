@@ -70,11 +70,11 @@ func divideConquer(problem, param1, param2, ...) {
 
 题目|难度|链接|是否完成|第几遍
 ----|----|----|----|----
-236. 二叉树的最近公共祖先|中等|https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/|是|1
-105. 从前序与中序遍历序列构造二叉树|中等|https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/|否|0
-77. 组合|中等|https://leetcode.com/problems/combinations/|否|0
-46. 全排列|中等|https://leetcode.com/problems/permutations/|是|1
-47. 全排列 II|中等|https://leetcode.com/problems/permutations-ii/|否|0
+236. 二叉树的最近公共祖先|中等| https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/ |是|1
+105. 从前序与中序遍历序列构造二叉树|中等| https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/ |否|0
+77. 组合|中等| https://leetcode.com/problems/combinations/ |否|0
+46. 全排列|中等| https://leetcode.com/problems/permutations/ |是|1
+47. 全排列 II|中等| https://leetcode.com/problems/permutations-ii/ |否|0
 
 # 每日一题
 - https://leetcode.com/problems/two-sum/
