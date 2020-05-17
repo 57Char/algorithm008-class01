@@ -91,68 +91,69 @@ func binarySearch(array []int, target int) int {
 
 ## 深度优先搜索和广度优先搜索
 
-实战题目
-https://leetcode.com/problems/binary-tree-level-order-traversal/
-https://leetcode.com/problems/minimum-genetic-mutation/
-https://leetcode.com/problems/generate-parentheses/
-https://leetcode.com/problems/find-largest-value-in-each-tree-row/
+### 实战题目
+- https://leetcode.com/problems/binary-tree-level-order-traversal/
+- https://leetcode.com/problems/minimum-genetic-mutation/
+- https://leetcode.com/problems/generate-parentheses/
+- https://leetcode.com/problems/find-largest-value-in-each-tree-row/
 
-课后作业
-https://leetcode.com/problems/word-ladder/
-https://leetcode.com/problems/word-ladder-ii/
-https://leetcode.com/problems/number-of-islands/
-https://leetcode.com/problems/minesweeper/
+### 课后作业
+- https://leetcode.com/problems/word-ladder/
+- https://leetcode.com/problems/word-ladder-ii/
+- https://leetcode.com/problems/number-of-islands/
+- https://leetcode.com/problems/minesweeper/
 
 ## 贪心算法
 
-参考链接
+### 参考链接
 动态规划：https://zh.wikipedia.org/wiki/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92
 
-实战题目
-https://leetcode.com/problems/coin-change/
+### 实战题目
+- https://leetcode.com/problems/coin-change/
 
-课后作业
-https://leetcode.com/problems/lemonade-change/
-https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
-https://leetcode.com/problems/assign-cookies/
-https://leetcode.com/problems/walking-robot-simulation/
-https://leetcode.com/problems/jump-game/
-https://leetcode.com/problems/jump-game-ii/
+### 课后作业
+- https://leetcode.com/problems/lemonade-change/
+- https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+- https://leetcode.com/problems/assign-cookies/
+- https://leetcode.com/problems/walking-robot-simulation/
+- https://leetcode.com/problems/jump-game/
+- https://leetcode.com/problems/jump-game-ii/
 
 ## 二分查找
-参考链接
+
+### 参考链接
 Fast InvSqrt() 扩展阅读: https://www.beyond3d.com/content/articles/8/
 
-实战题目
-https://leetcode.com/problems/sqrtx/
-https://leetcode.com/problems/valid-perfect-square/
+### 实战题目
+- https://leetcode.com/problems/sqrtx/
+_ https://leetcode.com/problems/valid-perfect-square/
 
-课后作业
-https://leetcode.com/problems/search-in-rotated-sorted-array/
-https://leetcode.com/problems/search-a-2d-matrix/
-https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
-使用二分查找，寻找一个半有序数组 [4, 5, 6, 7, 0, 1, 2] 中间无序的地方
-说明：同学们可以将自己的思路、代码写在第 4 周的学习总结中
+### 课后作业
+- https://leetcode.com/problems/search-in-rotated-sorted-array/
+- https://leetcode.com/problems/search-a-2d-matrix/
+- https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+- 使用二分查找，寻找一个半有序数组 [4, 5, 6, 7, 0, 1, 2] 中间无序的地方
+- 说明：同学们可以将自己的思路、代码写在第 4 周的学习总结中
 
-本周作业
+## 本周作业
 
-简单
-https://leetcode.com/problems/lemonade-change/
-https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
-https://leetcode.com/problems/assign-cookies/
-https://leetcode.com/problems/walking-robot-simulation/
-使用二分查找，寻找一个半有序数组 [4, 5, 6, 7, 0, 1, 2] 中间无序的地方
-说明：同学们可以将自己的思路、代码写在第 3 周的学习总结中
+### 简单
+- https://leetcode.com/problems/lemonade-change/
+- https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+- https://leetcode.com/problems/assign-cookies/
+- https://leetcode.com/problems/walking-robot-simulation/
+- 使用二分查找，寻找一个半有序数组 [4, 5, 6, 7, 0, 1, 2] 中间无序的地方
+- 说明：同学们可以将自己的思路、代码写在第 3 周的学习总结中
 
-中等
-https://leetcode-cn.com/problems/word-ladder/
-https://leetcode-cn.com/problems/number-of-islands/
-https://leetcode-cn.com/problems/minesweeper/
-https://leetcode-cn.com/problems/jump-game/
-https://leetcode-cn.com/problems/search-in-rotated-sorted-array/
-https://leetcode-cn.com/problems/search-a-2d-matrix/
-https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/
+### 中等
+- https://leetcode.com/problems/word-ladder/
+- https://leetcode.com/problems/number-of-islands/
+- https://leetcode.com/problems/minesweeper/
+- https://leetcode.com/problems/jump-game/
+- https://leetcode.com/problems/search-in-rotated-sorted-array/
+- https://leetcode.com/problems/search-a-2d-matrix/
+- https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 
-困难
-https://leetcode-cn.com/problems/word-ladder-ii/description/
-https://leetcode-cn.com/problems/jump-game-ii/
+### 困难
+- https://leetcode.com/problems/word-ladder-ii/description/
+- https://leetcode.com/problems/jump-game-ii/
