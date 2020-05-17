@@ -149,14 +149,14 @@ _ https://leetcode.com/problems/valid-perfect-square/
 - https://leetcode.com/problems/word-ladder/
 - https://leetcode.com/problems/number-of-islands/
 - https://leetcode.com/problems/minesweeper/
-- https://leetcode.com/problems/jump-game/
+- https://leetcode.com/problems/jump-game/ 完成1遍
 - https://leetcode.com/problems/search-in-rotated-sorted-array/
 - https://leetcode.com/problems/search-a-2d-matrix/
 - https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 
 ### 困难
 - https://leetcode.com/problems/word-ladder-ii/
-- https://leetcode.com/problems/jump-game-ii/
+- https://leetcode.com/problems/jump-game-ii/ 完成2遍
 
 ## 每日一题
 - https://leetcode.com/problems/search-in-rotated-sorted-array/
