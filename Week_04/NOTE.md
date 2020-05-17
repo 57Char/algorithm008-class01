@@ -140,7 +140,7 @@ _ https://leetcode.com/problems/valid-perfect-square/
 ### 简单
 - https://leetcode.com/problems/lemonade-change/
 - https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
-- https://leetcode.com/problems/assign-cookies/ 完成1遍
+- https://leetcode.com/problems/assign-cookies/ 完成2遍
 - https://leetcode.com/problems/walking-robot-simulation/
 - 使用二分查找，寻找一个半有序数组 [4, 5, 6, 7, 0, 1, 2] 中间无序的地方
 - 说明：同学们可以将自己的思路、代码写在第 4 周的学习总结中
