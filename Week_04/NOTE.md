@@ -138,7 +138,7 @@ _ https://leetcode.com/problems/valid-perfect-square/
 ## 本周作业
 
 ### 简单
-- https://leetcode.com/problems/lemonade-change/
+- https://leetcode.com/problems/lemonade-change/ 完成1遍
 - https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
 - https://leetcode.com/problems/assign-cookies/ 完成2遍
 - https://leetcode.com/problems/walking-robot-simulation/
