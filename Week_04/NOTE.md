@@ -150,7 +150,7 @@ _ https://leetcode.com/problems/valid-perfect-square/
 - https://leetcode.com/problems/number-of-islands/
 - https://leetcode.com/problems/minesweeper/
 - https://leetcode.com/problems/jump-game/ 完成1遍
-- https://leetcode.com/problems/search-in-rotated-sorted-array/
+- https://leetcode.com/problems/search-in-rotated-sorted-array/ 完成1遍
 - https://leetcode.com/problems/search-a-2d-matrix/
 - https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 
