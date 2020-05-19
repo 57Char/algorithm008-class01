@@ -7,8 +7,7 @@ func searchMatrix(matrix [][]int, target int) bool {
 		return false
 	}
 
-	n := len(matrix)
-	m := len(matrix[0])
+	n, m := len(matrix), len(matrix[0])
 
 	if target < matrix[0][0] || target > matrix[n-1][m-1] {
 		return false
