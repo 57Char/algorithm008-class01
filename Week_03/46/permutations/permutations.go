@@ -2,6 +2,8 @@ package permutations
 
 // https://leetcode.com/problems/permutations/
 
+// Runtime: 0 ms, faster than 100.00% of Go online submissions for Permutations.
+// Memory Usage: 2.7 MB, less than 100.00% of Go online submissions for Permutations.
 func permute(nums []int) [][]int {
 	res := [][]int{}
 	backtrack(nums, []int{}, &res)
@@ -28,4 +30,24 @@ func contains(track []int, n int) bool {
 		}
 	}
 	return false
+}
+
+// Runtime: 0 ms, faster than 100.00% of Go online submissions for Permutations.
+// Memory Usage: 2.6 MB, less than 100.00% of Go online submissions for Permutations.
+func permuteV2(nums []int) [][]int {
+	res := [][]int{}
+	backtrackV2(nums, 0, len(nums), &res)
+	return res
+}
+
+func backtrackV2(nums []int, level, n int, res *[][]int) {
+	if level == n-1 {
+		*res = append(*res, append([]int{}, nums...))
+		return
+	}
+	for i := level; i < n; i++ {
+		nums[i], nums[level] = nums[level], nums[i]
+		backtrackV2(nums, level+1, n, res)
+		nums[i], nums[level] = nums[level], nums[i]
+	}
 }
