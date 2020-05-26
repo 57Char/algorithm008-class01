@@ -5,6 +5,8 @@ package house_robber
 func rob(nums []int) int {
 	prev, curr := 0, 0
 	for _, v := range nums {
+		// prev = dp[i-2]
+		// curr = dp[i-1]
 		prev, curr = curr, max(curr, prev+v)
 	}
 	return curr
