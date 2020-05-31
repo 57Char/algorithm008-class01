@@ -1,5 +1,4 @@
 ## 动态规划定义
-
 [动态规划定义](https://en.wikipedia.org/wiki/Dynamic_programming)
 
 ## 参考链接
@@ -37,6 +36,23 @@
 - https://leetcode.com/problems/coin-change/
 - https://leetcode.com/problems/coin-change-2/
 
+## 本周作业
+### 中等
+- https://leetcode.com/problems/minimum-path-sum/
+- https://leetcode.com/problems/decode-ways
+- https://leetcode.com/problems/maximal-square/
+- https://leetcode.com/problems/task-scheduler/
+- https://leetcode.com/problems/palindromic-substrings/
+### 困难
+- https://leetcode.com/problems/longest-valid-parentheses/
+- https://leetcode.com/problems/edit-distance/
+- https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/
+- https://leetcode.com/problems/frog-jump/
+- https://leetcode.com/problems/split-array-largest-sum
+- https://leetcode.com/problems/student-attendance-record-ii/
+- https://leetcode.com/problems/minimum-window-substring/
+- https://leetcode.com/problems/burst-balloons/
+
 ## 每日一题
 - https://leetcode.com/problems/4sum/
 - https://leetcode.com/problems/permutations-ii/
@@ -55,4 +71,5 @@
 - https://leetcode.com/problems/task-scheduler/
 - https://leetcode.com/problems/burst-balloons/ 未做
 
-参考资料 https://leetcode-cn.com/problems/house-robber/solution/dong-tai-gui-hua-jie-ti-si-bu-zou-xiang-jie-cjavap/
+## 参考资料 
+- https://leetcode-cn.com/problems/house-robber/solution/dong-tai-gui-hua-jie-ti-si-bu-zou-xiang-jie-cjavap/
