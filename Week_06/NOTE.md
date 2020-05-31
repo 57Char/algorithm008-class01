@@ -1,25 +1,25 @@
 ## 动态规划
 ### 定义
-- Wiki 定义: https://en.wikipedia.org/wiki/Dynamic_programming
-- “Simplifying a complicated problem by breaking it down into simpler sub-problems”
+1. Wiki 定义: https://en.wikipedia.org/wiki/Dynamic_programming
+2. “Simplifying a complicated problem by breaking it down into simpler sub-problems”
 (in a recursive manner)
-- Divide & Conquer + Optimal substructure 分治 + 最优子结构
+3. Divide & Conquer + Optimal substructure 分治 + 最优子结构
 
 ### 关键点
-- 动态规划 和 递归或者分治 没有根本上的区别(关键看有无最优的子结构)
-- 共性: 找到重复子问题
-- 差异性: 最优子结构、中途可以淘汰次优解
+1. 动态规划 和 递归或者分治 没有根本上的区别(关键看有无最优的子结构)
+2. 共性: 找到重复子问题
+3. 差异性: 最优子结构、中途可以淘汰次优解
 
-- 最优子结构: opt[n] = best_of(opt[n-1], opt[n-2], ...)
-- 储存中间状态: opt[i]
-- 递推公式(美其名曰: 状态转移方程或者 DP 方程)
+1. 最优子结构: opt[n] = best_of(opt[n-1], opt[n-2], ...)
+2. 储存中间状态: opt[i]
+3. 递推公式(美其名曰: 状态转移方程或者 DP 方程)
  - Fib:    opt[i] = opt[n-1] + opt[n-2]
  - 二维路径: opt[i,j] = opt[i+1][j] + opt[i][j+1] (且判断a[i,j]是否空地)
 
 ### 小结
-- 打破自己的思维惯性，形成机器思维
-- 理解复杂逻辑的关键
-- 也是职业进阶的要点要领
+1. 打破自己的思维惯性，形成机器思维
+2. 理解复杂逻辑的关键
+3. 也是职业进阶的要点要领
 
 ## 参考链接
 - [不同路径](https://leetcode.com/problems/unique-paths/)
