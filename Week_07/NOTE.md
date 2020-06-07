@@ -88,6 +88,58 @@ func (u *UnionFind) Count() int {
 ### 课后作业
 - 总结双向 BFS 代码模版，请同学们提交在学习总结中。
 
+```go
+
+// Two-ended BFS
+func bfs(begin, end string, all []string) int {
+	// 数据集转全局Set
+	allSet := map[string]bool{}
+	for _, val := range all {
+		allSet[val] = true
+	}
+	// 判断end是否在全局Set中
+	if !allSet[end] {
+		return 0
+	}
+	// 构建双端Set，并加入初始元素
+	beginSet, endSet := map[string]bool{}, map[string]bool{}
+	beginSet[begin] = true
+	endSet[end] = true
+	// 初始化返回值
+	res := 1
+	// 遍历
+	for len(beginSet) > 0 {
+		// 返回值+1
+		res++
+		// 构建新Set
+		newSet := map[string]bool{}
+		// 遍历
+		for begin := range beginSet {
+			for i, val := range begin {
+				// 处理数据
+				newVal := do(val)
+				// 新值是否包含在目标集合中
+				if endSet[newVal] {
+					return res
+				}
+				// 加入新Set，并从全局Set中删除
+				if allSet[newVal] {
+					newSet[newVal] = true
+					delete(allSet, newVal)
+				}
+			}
+		}
+		// 重新赋值
+		beginSet = newSet
+		// 交换
+		if len(beginSet) > len(end) {
+			beginSet, endSet = beginSet, beginSet
+		}
+	}
+	return 0
+}
+```
+
 ## 4. 启发式搜索的实现、特性和题解
 
 ### 参考链接
