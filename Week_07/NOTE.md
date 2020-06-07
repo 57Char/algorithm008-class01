@@ -190,6 +190,9 @@ func bfs(begin, end string, all []string) int {
 - Day55 https://leetcode.com/problems/intersection-of-two-arrays-ii/
 - Day56 https://leetcode.com/problems/word-ladder/
 
+# 练习
+- https://leetcode.com/problems/longest-increasing-subsequence/
+
 # 其他
 - [算法8期期中考试错题详情](https://shimo.im/sheets/3htvPPpgpdRYDYwg/BTaQL/)
 - [算法训练营-期中考试题](https://shimo.im/docs/69uDNhxTzjADzqwQ/)  
