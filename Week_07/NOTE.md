@@ -115,17 +115,17 @@ func (u *UnionFind) Count() int {
 
 ## 中等
 - https://leetcode.com/problems/implement-trie-prefix-tree/
-- https://leetcode.com/problems/friend-circles
+- https://leetcode.com/problems/friend-circles 完成
 - https://leetcode.com/problems/number-of-islands/
-- https://leetcode.com/problems/surrounded-regions/
-- https://leetcode.com/problems/valid-sudoku/
+- https://leetcode.com/problems/surrounded-regions/ 完成
+- https://leetcode.com/problems/valid-sudoku/ 完成
 - https://leetcode.com/problems/generate-parentheses/
-- https://leetcode.com/problems/word-ladder/
+- https://leetcode.com/problems/word-ladder/ 完成
 - https://leetcode.com/problems/minimum-genetic-mutation/
 
 ## 困难
 - https://leetcode.com/problems/word-search-ii/
-- https://leetcode.com/problems/n-queens/
+- https://leetcode.com/problems/n-queens/ 完成
 - https://leetcode.com/problems/sudoku-solver/
 
 # 每日一题
