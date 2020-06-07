@@ -132,7 +132,7 @@ func bfs(begin, end string, all []string) int {
 		// 重新赋值
 		beginSet = newSet
 		// 交换
-		if len(beginSet) > len(end) {
+		if len(beginSet) > len(endSet) {
 			beginSet, endSet = beginSet, beginSet
 		}
 	}
