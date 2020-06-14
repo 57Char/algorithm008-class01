@@ -55,7 +55,7 @@
 - 用自己熟悉的编程语言，手写各种初级排序代码，提交到学习总结中。
 
 ```
-// 快排
+// 快速排序
 // Using：quickSort(array, 0, len(array)-1)
 func quickSort(array []int, begin, end int) {
 	if end <= begin {
@@ -77,6 +77,49 @@ func partition(array []int, begin, end int) int {
 	}
 	array[pivot], array[counter] = array[counter], array[pivot]
 	return counter
+}
+```
+
+```go
+// 归并排序
+// Using：mergeSort(array, 0, len(array)-1)
+func mergeSort(array []int, left, right int) {
+	if right <= left {
+		return
+	}
+	mid := left + (right-left)>>1 // (left + right) / 2
+	mergeSort(array, left, mid)
+	mergeSort(array, mid+1, right)
+	merge(array, left, mid, right)
+}
+
+func merge(array []int, left, mid, right int) {
+	// temp := make([]int, 0, right-left+1) // 中间数组
+	var temp []int
+	i, j := left, mid+1
+
+	for i <= mid && j <= right {
+		if array[i] <= array[j] {
+			temp = append(temp, array[i])
+			i++
+		} else {
+			temp = append(temp, array[j])
+			j++
+		}
+	}
+
+	for i <= mid {
+		temp = append(temp, array[i])
+		i++
+	}
+	for j <= right {
+		temp = append(temp, array[j])
+		j++
+	}
+
+	for i, v := range temp {
+		array[left+i] = v
+	}
 }
 ```
 
