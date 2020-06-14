@@ -54,7 +54,7 @@
 ### 课后作业
 - 用自己熟悉的编程语言，手写各种初级排序代码，提交到学习总结中。
 
-```
+```go
 // 快速排序
 // Using：quickSort(array, 0, len(array)-1)
 func quickSort(array []int, left, right int) {
