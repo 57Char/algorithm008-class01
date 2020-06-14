@@ -54,6 +54,32 @@
 ### 课后作业
 - 用自己熟悉的编程语言，手写各种初级排序代码，提交到学习总结中。
 
+```
+// 快排
+// Using：quickSort(array, 0, len(array)-1)
+func quickSort(array []int, begin, end int) {
+	if end <= begin {
+		return
+	}
+	pivot := partition(array, begin, end)
+	quickSort(array, begin, pivot-1)
+	quickSort(array, pivot+1, end)
+}
+
+func partition(array []int, begin, end int) int {
+	// pivot: 标杆位置，counter: 小于pivot的元素的个数
+	pivot, counter := end, begin
+	for i := begin; i < end; i++ {
+		if array[i] < array[pivot] {
+			array[i], array[counter] = array[counter], array[i]
+			counter++
+		}
+	}
+	array[pivot], array[counter] = array[counter], array[pivot]
+	return counter
+}
+```
+
 ## 2. 特殊排序及实战题目详
 
 ### 参考链接
