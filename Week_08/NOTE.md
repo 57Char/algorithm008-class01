@@ -79,7 +79,7 @@
 - https://leetcode.com/problems/valid-anagram/
 
 ## 中等
-- https://leetcode.com/problems/lru-cache/
+- https://leetcode.com/problems/lru-cache/ 已完成
 - https://leetcode.com/problems/design-a-leaderboard/
 - https://leetcode.com/problems/merge-intervals/
 
