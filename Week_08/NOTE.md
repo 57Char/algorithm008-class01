@@ -57,19 +57,19 @@
 ```
 // 快速排序
 // Using：quickSort(array, 0, len(array)-1)
-func quickSort(array []int, begin, end int) {
-	if end <= begin {
+func quickSort(array []int, left, right int) {
+	if right <= left {
 		return
 	}
-	pivot := partition(array, begin, end)
-	quickSort(array, begin, pivot-1)
-	quickSort(array, pivot+1, end)
+	pivot := partition(array, left, right)
+	quickSort(array, left, pivot-1)
+	quickSort(array, pivot+1, right)
 }
 
-func partition(array []int, begin, end int) int {
+func partition(array []int, left, right int) int {
 	// pivot: 标杆位置，counter: 小于pivot的元素的个数
-	pivot, counter := end, begin
-	for i := begin; i < end; i++ {
+	pivot, counter := right, left
+	for i := left; i < right; i++ {
 		if array[i] < array[pivot] {
 			array[i], array[counter] = array[counter], array[i]
 			counter++
