@@ -12,6 +12,7 @@ func mergeSort(array []int, left, right int) {
 
 func merge(array []int, left, mid, right int) {
 	// temp := make([]int, 0, right-left+1) // 中间数组
+	// 中间数组
 	var temp []int
 	i, j := left, mid+1
 
@@ -34,7 +35,17 @@ func merge(array []int, left, mid, right int) {
 		j++
 	}
 
-	for i, v := range temp {
-		array[left+i] = v
-	}
+	// case 1
+	//for i, v := range temp {
+	//	array[left+i] = v
+	//}
+
+	// case 2
+	//// len(temp) == right-left+1
+	//for i := 0; i < len(temp); i++ {
+	//	array[left+i] = temp[i]
+	//}
+
+	// case 3
+	_ = append(array[:left], temp...)
 }

@@ -117,9 +117,7 @@ func merge(array []int, left, mid, right int) {
 		j++
 	}
 
-	for i, v := range temp {
-		array[left+i] = v
-	}
+	_ = append(array[:left], temp...)
 }
 ```
 
