@@ -71,8 +71,8 @@
 # 本周作业
 
 ## 简单
-- https://leetcode.com/problems/number-of-1-bits/
-- https://leetcode.com/problems/power-of-two/
+- https://leetcode.com/problems/number-of-1-bits/ 已完成
+- https://leetcode.com/problems/power-of-two/ 已完成
 - https://leetcode.com/problems/reverse-bits/
 - 用自己熟悉的编程语言，手写各种初级排序代码，提交到学习总结中。
 - https://leetcode.com/problems/relative-sort-array/
