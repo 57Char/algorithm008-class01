@@ -102,7 +102,7 @@
 
 ## 简单
 - https://leetcode.com/problems/first-unique-character-in-a-string/
-- https://leetcode.com/problems/reverse-string-ii/
+- https://leetcode.com/problems/reverse-string-ii/ 已完成
 - https://leetcode.com/problems/reverse-words-in-a-string/
 - https://leetcode.com/problems/reverse-words-in-a-string-iii/
 - https://leetcode.com/problems/reverse-only-letters/
