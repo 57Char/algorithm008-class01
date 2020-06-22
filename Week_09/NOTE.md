@@ -6,7 +6,7 @@
 - [爬楼梯](https://leetcode.com/problems/climbing-stairs/)
 - [不同路径](https://leetcode.com/problems/unique-paths/)
 - [打家劫舍](https://leetcode.com/problems/house-robber/)
-- [最小路径和](https://leetcode.com/problems/minimum-path-sum/)
+- [最小路径和](https://leetcode.com/problems/minimum-path-sum/) 已完成
 - [股票买卖](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
     
 ### 课后作业
