@@ -166,3 +166,12 @@ func dfs(root *Node, level int, res *[][]int) {
 	}
 }
 ```
+
+# 每日一题
+- 75 https://leetcode.com/problems/sort-colors/
+- 104 https://leetcode.com/problems/maximum-depth-of-binary-tree/
+- 258 https://leetcode.com/problems/add-digits/
+- 299 https://leetcode.com/problems/bulls-and-cows/
+- 350 https://leetcode.com/problems/intersection-of-two-arrays-ii/
+- 1021 https://leetcode.com/problems/remove-outermost-parentheses/
+- https://leetcode-cn.com/problems/zero-matrix-lcci/
